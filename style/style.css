@@ -1,8 +1,8 @@
 /* Default style */
-/* *{
+*{
     padding: 0;
     margin: 0;
-} */
+}
 
 body {
     font-family: 'Open Sans', sans-serif;
@@ -12,6 +12,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0px 200px;
+    background: #FFF8F3;
 }
 
 .weblogo {
@@ -51,4 +53,42 @@ body {
     border-radius: 5px;
     padding: 15px 35px;
     border: 0;
+}
+.hero-section{
+    display: flex;
+    padding: 30px 30px 30px 150px;
+    background: #FFF8F3;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero-content h3{
+    color: #474747;
+font-size: 45px;
+font-weight: 600;
+line-height: normal;
+
+}
+.hero-content h1{
+    color:  #181818;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-size: 85px;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 20px;
+
+}
+.hero-content p{
+    color:#757575;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    width: 585px;
+    margin-bottom: 33px;
+
+}
+.hero-profile img{
+    width: 500px;
+    
+
 }
