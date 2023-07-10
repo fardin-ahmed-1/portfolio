@@ -78,7 +78,7 @@ header {
     justify-content: space-between;
     background-image: url("../images/header_bg.png");
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right,top left;
     background-size: 700px 450px;
 
 }
