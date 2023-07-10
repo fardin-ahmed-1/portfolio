@@ -8,12 +8,14 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+header{
+    background: #FFF8F3;
+}
 .mainheader {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 200px;
-    background: #FFF8F3;
+    /* padding: 20px 200px; */
 
 
 }
@@ -27,7 +29,7 @@ body {
 
 .primery-color {
     color: #FD6E0A;
-    ;
+
 }
 
 .menu>ul {
@@ -57,6 +59,16 @@ body {
     border: 0;
 }
 
+/* Default continer style start */
+
+.continer {
+    width: 1040px;
+    margin: 0px auto;
+}
+
+/* Defould continer style End */
+
+/* Hero section design style */
 .hero-section {
     display: flex;
     padding: 30px 80px 0px 120px;
@@ -67,6 +79,7 @@ body {
     background-repeat: no-repeat;
     background-position: bottom right;
     background-size: 700px 450px;
+    
 }
 
 
@@ -106,12 +119,14 @@ body {
 
 }
 
+/* Hero section style End */
+
 /* about section style */
 .about-section {
     border-radius: 10px;
     background: #FFF8F3;
-    margin: 130px 230px;
     padding: 100px 110px;
+    margin: 130px auto;
 }
 
 .about-section h1 {
@@ -120,32 +135,38 @@ body {
     font-size: 35px;
     font-weight: 700;
 }
+
 .about-section p {
-    color:  #757575;
+    color: #757575;
     text-align: center;
     font-size: 18px;
     font-weight: 400;
     padding: 30px 0px;
 }
-.about-info{
+
+.about-info {
     display: flex;
     justify-content: space-between;
 }
-.about-info strong{
+
+.about-info strong {
     display: block;
 }
 
-.about-info small{
+.about-info small {
     color: #757575;
-text-align: center;
-font-size: 18px;
-font-weight: 400;
-line-height: 30px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
 }
-.about-info strong{
+
+.about-info strong {
     color: #353535;
-text-align: left;
-font-size: 20px;
-font-weight:600;
-line-height: 30px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
 }
+
+/* About section syle End */
