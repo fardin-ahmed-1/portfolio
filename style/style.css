@@ -118,6 +118,9 @@ header{
 
 
 }
+.hero-profile {
+    margin-bottom: -5px;
+}
 
 /* Hero section style End */
 
@@ -129,14 +132,14 @@ header{
     margin: 130px auto;
 }
 
-.about-section h1 {
+.section-title {
     color: #181818;
     text-align: center;
     font-size: 35px;
     font-weight: 700;
 }
 
-.about-section p {
+.section-description {
     color: #757575;
     text-align: center;
     font-size: 18px;
@@ -170,3 +173,9 @@ header{
 }
 
 /* About section syle End */
+
+/* What I do section style  */
+.heading-des p{
+    width: 909px;
+
+}
