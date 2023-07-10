@@ -8,9 +8,10 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-header{
+header {
     background: #FFF8F3;
 }
+
 .mainheader {
     display: flex;
     align-items: center;
@@ -62,7 +63,7 @@ header{
 /* Default continer style start */
 
 .continer {
-    width: 1040px;
+    width: 1140px;
     margin: 0px auto;
 }
 
@@ -79,7 +80,7 @@ header{
     background-repeat: no-repeat;
     background-position: bottom right;
     background-size: 700px 450px;
-    
+
 }
 
 
@@ -118,6 +119,7 @@ header{
 
 
 }
+
 .hero-profile {
     margin-bottom: -5px;
 }
@@ -128,8 +130,12 @@ header{
 .about-section {
     border-radius: 10px;
     background: #FFF8F3;
-    padding: 100px 110px;
+
     margin: 130px auto;
+}
+
+.about-wraper {
+    padding: 100px 110px;
 }
 
 .section-title {
@@ -175,7 +181,13 @@ header{
 /* About section syle End */
 
 /* What I do section style  */
-.heading-des p{
+.heading-des p {
     width: 909px;
 
+}
+/* What I do section style start */
+
+.servicebox{
+    display: flex;
+    justify-content: space-between;
 }
